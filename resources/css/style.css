@@ -561,7 +561,7 @@ input[type=checkbox] {
 footer {
     background-color: var(--footer-bg);
     color: var(--footer-text);
-    padding: 50px;
+    padding: 10px;
     font-size: 80%;
 }
 

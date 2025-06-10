@@ -98,4 +98,19 @@ $(document).ready(function () {
         icon.toggleClass("ion-close-round");
     });
 
+    /* Smooth logo resizing on scroll */
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+        $('.logo').css({
+            'transform': 'scale(0.8)',
+            'transition': 'transform 0.3s ease'
+        });
+    } else {
+        $('.logo').css({
+            'transform': 'scale(1)',
+            'transition': 'transform 0.3s ease'
+        });
+    }
+});
+
 });
